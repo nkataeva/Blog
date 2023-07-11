@@ -15,7 +15,7 @@ const LoginPage = () => {
         <div className={classes['login-page']}>
             <Card variant="outlined" sx={{ p: 2, margin: 2 }}>
                 <Typography variant="h4" component="h1">
-                    Вход
+                    Авторизация
                 </Typography>
                 <Box component='form' onSubmit={onSubmit} sx={{ maxWidth: 600 }}>
                     <TextField label='Email' variant="outlined" fullWidth margin="normal" />

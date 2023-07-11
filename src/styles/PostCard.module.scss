@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(39, 41, 182, 0.138);
+    transition: background-color 0.4s;
+    .title {
+        color: rgb(55, 109, 189);
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .img {
+        margin: 0 auto;
+        max-height: 150px;
+        max-width: 230px;
+        border-radius: 10px;
+    }
+
+    .info {
+        font-style: italic;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    .likes {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: right;
+        color: rgb(168, 0, 0);
+    }
+}
+
+.card:hover {
+    background-color: #aac6ff41;
+  }

@@ -1,4 +1,9 @@
-*, *::after, *::before {
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;1,100&family=Caveat&family=Montserrat:wght@300&display=swap');
+
+*,
+*::after,
+*::before {
+
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,11 +12,17 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-rendering: optimizeLegibility;
 }
 
-a, input, button, textarea, select {
+a,
+input,
+button,
+textarea,
+select {
     font: inherit;
     color: inherit;
     text-transform: inherit;
@@ -19,7 +30,8 @@ a, input, button, textarea, select {
     border: none;
 }
 
-button, input {
+button,
+input {
     border: 0;
     cursor: pointer;
 }
